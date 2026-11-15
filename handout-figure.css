@@ -1,0 +1,3 @@
+.handout-figure{margin:16px 0 20px;background:#fff;border:0;border-block:1px solid var(--line);padding:10px 0}
+.handout-figure img{display:block;width:100%;height:auto}
+.handout-figure figcaption{font-size:14px;line-height:1.6;color:var(--muted);padding:8px 0 0}

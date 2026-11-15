@@ -1,0 +1,12 @@
+.art-oximeter{min-height:270px;background:var(--soft)}
+.oximeter-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%}
+.oximeter-photo-shade{display:none}
+.art-oximeter .art-top,.art-oximeter .sensor-label{z-index:1;color:#fff;background:#101820c9;padding:7px 9px;font-weight:700;text-shadow:none}
+.oximeter-figure{margin:16px 0 20px;background:#fff;border:0;border-block:1px solid var(--line);padding:9px 0}
+.oximeter-figure img{display:block;width:100%;height:auto}
+.oximeter-figure figcaption{font-size:14px;line-height:1.6;color:var(--muted);padding:8px 0}
+.oximeter-details .functional-flow{flex-wrap:wrap}
+.oximeter-details .case-content h4{margin-top:21px}
+.oximeter-details .case-content h4:first-child{margin-top:5px}
+@media(max-width:560px){.art-oximeter{height:245px;min-height:245px}.oximeter-photo{object-position:center 48%}.oximeter-figure{padding:7px 0}}
+@media(prefers-reduced-motion:reduce){.oximeter-details summary{transition:none}}

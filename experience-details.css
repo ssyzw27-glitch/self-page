@@ -1,0 +1,31 @@
+.workstream{display:grid;grid-template-columns:30px minmax(0,1fr);gap:12px;padding:16px 0;border-top:1px solid var(--line)}
+.workstream>span{font-size:14px;color:var(--muted);padding-top:3px}
+.workstream b{font-size:18px;color:var(--ink)}
+.workstream p{font-size:17px;color:var(--body);line-height:1.65;margin:5px 0 0}
+.timeline-content .workstream:first-of-type{margin-top:12px}
+.experience-lead{font-size:17px;line-height:1.65;color:var(--body);margin:13px 0 18px;max-width:74ch}
+.case-details{margin-top:12px;border-top:1px solid var(--line)}
+.case-details summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;color:var(--blue);font-size:16px;font-weight:650}
+.case-details summary::-webkit-details-marker{display:none}
+.case-details summary span{font-size:18px;font-weight:400;transition:transform .2s}
+.case-details[open] summary span{transform:rotate(45deg)}
+.case-details summary:hover{color:var(--blue-hover)}
+.design-work-details>summary{padding:11px 15px;background:var(--blue);border:1px solid var(--blue);color:#fff;font-weight:700}
+.design-work-details>summary:hover{background:var(--blue-hover);border-color:var(--blue-hover);color:#fff}
+.design-work-details>summary span{color:#fff}
+.design-work-details>summary:focus-visible{outline:3px solid #8fc5f5;outline-offset:3px}
+.case-content{padding:7px 0 16px;animation:case-reveal .22s ease-out;max-width:78ch}
+.case-content h4{font-size:20px;line-height:1.4;margin:5px 0 10px;color:var(--ink)}
+.case-content>p{font-size:17px;line-height:1.65;color:var(--body);margin:8px 0 13px}
+.case-content ul{padding-left:22px;margin:10px 0}
+.case-content li{font-size:17px;line-height:1.65;color:var(--body);padding:3px 0}
+.functional-flow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;padding:12px 0;border-block:1px solid var(--line);margin:14px 0}
+.functional-flow span{background:#fff;border:1px solid var(--line);color:var(--body);padding:8px 10px;font-size:15px}
+.functional-flow i{font-style:normal;color:var(--blue);font-size:16px}
+.case-outcome{display:grid;grid-template-columns:130px minmax(0,1fr);gap:12px;padding:12px 0;border-top:1px solid var(--line);margin-top:14px}
+.case-outcome b{font-size:15px;color:var(--ink)}
+.case-outcome span{font-size:16px;line-height:1.65;color:var(--body)}
+.case-content .case-note{padding:10px 0;color:var(--muted);font-size:15px}
+@keyframes case-reveal{from{opacity:.4;transform:translateY(-3px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:560px){.workstream{grid-template-columns:24px minmax(0,1fr)}.case-outcome{grid-template-columns:1fr;gap:4px}}
+@media(prefers-reduced-motion:reduce){.case-content{animation:none}.case-details summary span{transition:none}}

@@ -1,0 +1,11 @@
+.converter-details{margin-top:19px;border-top:1px solid var(--line)}
+.converter-details summary{padding:12px 0}
+.converter-details .case-content h4{margin-top:20px}
+.converter-details .case-content h4:first-child{margin-top:5px}
+.case-figure{margin:14px 0;padding:13px 0;background:#fff;border-block:1px solid var(--line)}
+.case-figure>span{font-size:13px;font-weight:650;color:var(--muted)}
+.case-figure .functional-flow{margin-bottom:7px}
+.case-figure>small{font-size:15px;color:var(--muted)}
+.converter-details .case-content ul{margin-bottom:15px}
+.converter-details .case-content li{padding:3px 0}
+@media(max-width:700px){.case-figure .functional-flow{gap:6px}.case-figure .functional-flow span{padding:7px;font-size:14px}}
